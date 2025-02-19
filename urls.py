@@ -8,3 +8,4 @@ urlpatterns = [
     path('secret/', flatpage_views.flatpage, {'url': '/secret/'}, name='secret'),
     path('', include('my_app.urls')),
     path('<path:url>', flatpage_views.flatpage),
+]
