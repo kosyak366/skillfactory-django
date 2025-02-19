@@ -1,4 +1,3 @@
-{# templates/flatpages/default.html #}
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -48,7 +47,6 @@
         </nav>
         <h1>{{ flatpage.title }}</h1>
 
-        {# Повторяем контент два раза #}
         {{ flatpage.content|safe }}
         {{ flatpage.content|safe }}
 
